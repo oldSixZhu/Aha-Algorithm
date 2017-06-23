@@ -7,9 +7,16 @@
 //
 
 #include <stdio.h>
+#include "PaiXu.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    //桶排序
+//    tong();
+    //冒泡
+//    maoPao();
+    //快速排序
+    kuaiSu();
+    
     return 0;
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0407AD0A1EF8C36900AD783C /* SuanFa1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0407AD091EF8C36900AD783C /* SuanFa1.c */; };
+		040FC6551EFD098000CC9C23 /* SuanFa3.c in Sources */ = {isa = PBXBuildFile; fileRef = 040FC6541EFD098000CC9C23 /* SuanFa3.c */; };
+		0410D24A1EFBC62E002CA4E4 /* SuanFa2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0410D2491EFBC62E002CA4E4 /* SuanFa2.c */; };
+		041245671EFA6F4C001E8827 /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 041245661EFA6F4C001E8827 /* Tree.c */; };
+		046C947A1EF77E9B00B5BBEB /* PaiXu.c in Sources */ = {isa = PBXBuildFile; fileRef = 046C94781EF77E9B00B5BBEB /* PaiXu.c */; };
 		048C4AD71EF76972004CF594 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 048C4AD61EF76972004CF594 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0407AD091EF8C36900AD783C /* SuanFa1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuanFa1.c; sourceTree = "<group>"; };
+		040FC6541EFD098000CC9C23 /* SuanFa3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuanFa3.c; sourceTree = "<group>"; };
+		0410D2491EFBC62E002CA4E4 /* SuanFa2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SuanFa2.c; sourceTree = "<group>"; };
+		041245661EFA6F4C001E8827 /* Tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tree.c; sourceTree = "<group>"; };
+		046C94781EF77E9B00B5BBEB /* PaiXu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PaiXu.c; sourceTree = "<group>"; };
+		046C94791EF77E9B00B5BBEB /* PaiXu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaiXu.h; sourceTree = "<group>"; };
 		048C4AD31EF76972004CF594 /* Aha-Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Aha-Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048C4AD61EF76972004CF594 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				048C4AD61EF76972004CF594 /* main.c */,
+				046C94791EF77E9B00B5BBEB /* PaiXu.h */,
+				046C94781EF77E9B00B5BBEB /* PaiXu.c */,
+				0407AD091EF8C36900AD783C /* SuanFa1.c */,
+				041245661EFA6F4C001E8827 /* Tree.c */,
+				0410D2491EFBC62E002CA4E4 /* SuanFa2.c */,
+				040FC6541EFD098000CC9C23 /* SuanFa3.c */,
 			);
 			path = "Aha-Algorithm";
 			sourceTree = "<group>";
@@ -120,7 +137,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0410D24A1EFBC62E002CA4E4 /* SuanFa2.c in Sources */,
 				048C4AD71EF76972004CF594 /* main.c in Sources */,
+				0407AD0A1EF8C36900AD783C /* SuanFa1.c in Sources */,
+				041245671EFA6F4C001E8827 /* Tree.c in Sources */,
+				046C947A1EF77E9B00B5BBEB /* PaiXu.c in Sources */,
+				040FC6551EFD098000CC9C23 /* SuanFa3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,16 +241,20 @@
 		048C4ADB1EF76972004CF594 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = M53U6W63RE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		048C4ADC1EF76972004CF594 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = M53U6W63RE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -251,6 +277,7 @@
 				048C4ADC1EF76972004CF594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
